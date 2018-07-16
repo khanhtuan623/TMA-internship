@@ -1,0 +1,489 @@
+body {
+	position: relative;
+	margin: 0px auto;
+	width: 100%;
+	height: 1000px;
+	font-family: tahoma;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+#header {
+	background: #CEECF5;
+	width: 100%;
+	height: 6%;
+	float: none;
+	position: fixed;
+	z-index: 10;
+	border-bottom: 1px solid #81BEF7;
+}
+
+#header #left {
+	width: 65%;
+	height: 100%;
+	float: left;
+}
+
+#header #left #home {
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	margin: 0px auto;
+	width: 30%;
+	height: 100%;
+	float: left;
+	background: #81BEF7;
+}
+
+#header #left #home #in-home {
+	text-align: center;
+	/* 	background: #F8ECE0; */
+	display: block;
+	margin: 0px auto;
+	width: 97%;
+	height: 90%;
+	border-radius: 5px;
+}
+
+#header #left #home #in-home a {
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	display: block;
+	line-height: 44px;
+	letter-spacing: 3px;
+	font-size: 25px;
+	/* 	border-right: solid 1px #E9A6A6; */
+	color: #F2F2F2;
+}
+
+#header #left #home #in-home a:hover {
+	/* 	background:#F78181 ; */
+	/* 	border-bottom: solid 1px #E9A6A6; */
+	border-radius: 5px;
+	/* 	box-shadow: 1px 1px #E9A6A6; */
+}
+
+#header #left #home #in-home a:active {
+	color: #F6CECE;
+}
+
+#header #left #element {
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+
+#header #left #element ul {
+	margin: 0px auto;
+	padding: 0px 0px 0px 0px;
+}
+
+#header #left #element ul li {
+	float: left;
+	list-style: none;
+	margin: 0px auto;
+	display: block;
+	line-height: 45px;
+	letter-spacing: 1px;
+	width: 100px;
+}
+
+#header #left #element ul li a {
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	display: block;
+	line-height: 50px;
+	width: 100%;
+	color: #424242;
+}
+
+#header #left #element ul li a:hover {
+	background: #FAFAFA;
+	border-radius: 5px;
+}
+
+#header #left #element ul li a:active {
+	color: #F7BE81;
+}
+
+#header #left #element ul li .sub-menu {
+	display: none;
+	background: #81BEF7;
+	width: auto;
+	margin: 0px auto;
+}
+
+#header #left #element ul li:hover .sub-menu {
+	background: #81BEF7;
+	display: block;
+}
+
+#header #left #element ul li .sub-items {
+	background: #CEECF5;
+	border: 1px solid #81BEF7;
+}
+
+#header #left #element ul li .sub-menu .sub-items a:hover {
+	background: #FAFAFA;
+	color: #424242;
+}
+
+#header #right {
+	/* 	background: #E1F5A9; */
+	width: 35%;
+	height: 100%;
+	float: left;
+	margin: 0px auto;
+}
+
+#header #right #search {
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+	width: 75%;
+	float: left;
+}
+
+#header #right #search form {
+	text-align: center;
+	vertical-align: middle;
+	margin: 10px 0px 0px 0px;
+}
+
+#header #right #search input {
+	margin: 0px auto;
+	line-height: 25px;
+	width: 250px;
+	float: left;
+}
+
+#header #right #search button {
+	background: #F2F2F2;
+	background-image: url("../images/search.png");
+	margin: 0px 0px 0px 0px;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+	height: 30px;
+	width: 30px;
+	float: left;
+}
+
+#header #right #login {
+	margin: 0px 0px 0px 0px;
+	display: block;
+	/* 	background: #F6E3CE; */
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+#header #right #login a {
+	margin: 0px auto;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+	font-size: 20px;
+	letter-spacing: 2px;
+	display: block;
+	color: #424242;
+	border-left: solid 1px #81BEF7;
+}
+
+#header #right #login a:hover {
+	border-radius: 5px;
+	background: #FAFAFA;
+}
+
+#header #right #login a:active {
+	color: #F7BE81;
+}
+
+#main {
+	margin: 0px 0px 0px 0px;
+	background: #ffffff;
+	width: 100%;
+	height: 70%;
+	position: absolute;
+	top: 6%;
+	z-index: 3;
+}
+
+#main #main-device {
+	margin: 0px auto;
+	margin-left: 10px;
+	width: 100%;
+	height: 715px;
+}
+
+#main #page-id {
+	width: 100%;
+	height: 5%;
+	position: absolute;
+	z-index: 4;
+}
+
+#main #page-id .pagination {
+	margin: 0px auto;
+}
+
+#main #page-id ul li {
+	float: left;
+	list-style: none;
+	margin: 0px auto;
+	display: block;
+	line-height: 25px;
+	letter-spacing: 1px;
+	width: 20px;
+}
+
+#main #main-device ul {
+	margin: 10px 0px 0px 0px;
+}
+
+#main #main-device ul li {
+	width: 230px;
+	height: 355px;
+	float: left;
+	border: 0.5px solid #D8D8D8;
+	position: relative;
+	z-index: 4;
+}
+
+/* #main #main-device ul li a { */
+/* 	margin: 0px auto; */
+/* 	display: block; */
+/* 	width: 100%; */
+/* 	height: 90%; */
+/* } */
+#main #main-device ul li .info-device-general {
+	margin: 0px auto;
+	margin: 0px auto;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 90%;
+	position: relative;
+	z-index: 3;
+}
+
+#main #main-device ul li .info-device-general .detail-div {
+	padding:5px 0px 0px 5px;
+	background: white;
+	opacity:0.9;
+	margin: 0px auto;
+	width: 97%;
+	height: 98%;
+	position: absolute;
+	display:none;
+	z-index: 2;
+}
+#main #main-device ul li .info-device-general .detail-div a {
+	margin: 0px auto;
+	display: block;
+	width: 100%;
+	height: 100%;
+	
+}
+
+#main #main-device ul li .info-device-general .info-device-general-a {
+	background: white;
+	width: 99.99%;
+	height: 99.99%;
+	position: absolute;
+	margin: 0px auto; 
+	display:block;
+	z-index: 1;
+}
+
+#main #main-device ul li .info-device-general:hover .detail-div {
+/* 	-webkit-animation: mymove 0s linear forwards; Safari 4.0 - 8.0 */
+/*     animation: mymove 0.5s linear forwards; */
+	display: block;
+}
+@-webkit-keyframes mymove {
+    from {top: 70%;}
+    to {top: 0%;}
+}
+
+@keyframes mymove {
+    from {top: 70%;}
+    to {top: 0%;}
+}
+#main #main-device ul li a .images-div {
+	margin: 0px auto;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100%;
+	width: 100%;
+	line-height: 100%;
+}
+
+#main #main-device ul li a .images {
+	margin: 10px auto;
+	width: 75%;
+	height: 10%;
+}
+
+#main #main-device ul li a .info-device {
+	margin: 0px auto;
+	width: 100%;
+	height: 38%;
+}
+
+#main #main-device ul li a .info-device #name-device {
+	margin: 0px auto;
+	color: #58ACFA;
+	font-size: 20px;
+}
+
+#main #main-device ul li a .info-device .element-info {
+	margin: 0px 0px 4px 5px;
+	color: black;
+	font-size: 13px;
+}
+
+#main #main-device ul li a .info-device div {
+	margin: 0px auto;
+}
+
+#main #main-device ul li a .info-device div .element-info-admin {
+	margin: 0px auto;
+	float: left;
+}
+
+#main #main-device ul li .button-buy {
+	border-top: 0.5px solid #D8D8D8;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 30px;
+	display: block;
+	margin: 0px auto;
+	letter-spacing: 2px;
+	font-size: 20px;
+	width: 100%;
+	height: 10%;
+	color: black;
+	position:absolute;
+	z-index: 3;
+}
+
+#main #main-device ul li .button-edit-delete {
+	border-top: 0.5px solid #D8D8D8;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 30px;
+	display: block;
+	margin: 0px auto;
+	letter-spacing: 2px;
+	font-size: 20px;
+	width: 49.5%;
+	height: 10%;
+	color: black;
+	float: left;
+	z-index: 3;
+}
+
+#main #main-device ul li .button-buy:hover {
+	background: #CEECF5;
+	border-radius: 5px;
+}
+
+#main #main-device ul li .button-edit-delete:hover {
+	background: #CEECF5;
+	border-radius: 5px;
+}
+
+#main #main-device ul li #button-edit {
+	border-right: 0.5px solid #D8D8D8;
+}
+
+#footer {
+	border-top: 0.5px solid #D8D8D8;
+	position: absolute;
+	top: 82%;
+	background: #CEE3F6;
+	width: 100%;
+	height: 20%;
+	z-index: 3;
+}
+
+#footer #left-footer {
+	width: 40%;
+	height: 200px;
+	float: left;
+}
+
+#footer #left-footer h2 {
+	margin: 5px 0px 0px 40px;
+	letter-spacing: 1px;
+	text-decoration: underline;
+	color: #1C1C1C;
+}
+
+#footer #left-footer ul li {
+	padding-top: 5px;
+	list-style: none;
+}
+
+#footer #left-footer ul {
+	padding: 0px 0px 0px 30px;
+}
+
+#footer #right-footer {
+	position: absolute;
+	left: 500px;
+	height: 200px;
+	width: 60%;
+}
+
+#footer #right-footer #function-device {
+	border-left: 0.5px solid #2F0B3A;
+	margin: 0px 0px 0px 0px;
+	position: absolute;
+	left: 0px;
+	height: 200px;
+	width: 20%;
+}
+
+#footer #right-footer #function-device ul {
+	margin: 5px 0px 0px -40px;
+	padding: 0p auto;
+	width: 100%;
+	height: 100%;
+}
+
+#footer #right-footer #function-device ul li {
+	margin: 0px auto;
+	display: block;
+	letter-spacing: 1px;
+	background: #F5A9A9;
+	width: 95%;
+	height: 30px;
+	border: 0.5px solid #FAFAFA;
+}
+
+#footer #right-footer #function-device ul li a {
+	text-align: center;
+	display: block;
+	line-height: 30px;
+	width: 100%;
+	color: #424242;
+	font-size: 15px;
+}
+
+#footer #right-footer #function-device ul li a:hover {
+	background: #F8EFFB;
+	border-radius: 5px;
+}
